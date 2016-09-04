@@ -31,6 +31,9 @@ NTP（Network Time Protocol）它是用来同步网络中各个计算机的时�
 1.可以基于NTP的反射和放大攻击  
 2.NTP反射型doos攻击
 
+## 513端口
+rlogin服务
+
 ## 389端口
 LDAP协议 轻量级目录访问协议  
 1.注入  
