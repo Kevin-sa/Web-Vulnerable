@@ -28,3 +28,5 @@
          :,,vr:    Li   ZB@M   LL   .:i, ,        
          :.2B@B@@8u.    7@B@.   :ZB@B@B8 :.       
            v@i  :B8    uO@MBE    SO   @:          
+ - [PORT](https://github.com/Kevin-sa/web-penetration/tree/master/PORT)常见端口漏洞
+ - [Vulnerability-list](https://github.com/Kevin-sa/web-penetration/blob/master/Vulnerability-list/Vulnerability-list.md)常见漏洞列表
