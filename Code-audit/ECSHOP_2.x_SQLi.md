@@ -1,6 +1,7 @@
 
-## Ecshop 2.x 存在SQLi
+## Ecshop 2.x 存在SQLi&&RCE
 
+## SQli
 ### 利用链路：
 user.php -> cls_template.php function dispaly -> cls_template.php function insert_mod -> function insert_*
 
@@ -58,4 +59,7 @@ note:oder by limit .$arr['num'] procedure anaylse mysql < 5.6.6
 
 ```
 
+### RCE
+### 利用链路
+function insert_ads() -> function fetch() ->fcuntion _eval
 
